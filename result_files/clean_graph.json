@@ -1,0 +1,12 @@
+{
+  "nodes": [
+    "main",
+    "cleanText"
+  ],
+  "edges": [
+    {
+      "From": "main",
+      "To": "cleanText"
+    }
+  ]
+}

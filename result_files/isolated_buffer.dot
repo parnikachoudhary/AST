@@ -1,0 +1,6 @@
+digraph CallGraph {
+  node [shape=box, fontname="Helvetica", style=filled, fillcolor="#f4f4f4"];
+  "getBufferSize" -> "calculateHash";
+  "main" -> "processData";
+  "processData" -> "getBufferSize";
+}

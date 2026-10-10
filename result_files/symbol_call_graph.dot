@@ -1,0 +1,8 @@
+digraph CallGraph {
+  node [shape=box, fontname="Helvetica", style=filled, fillcolor="#f4f4f4"];
+  "cleanText" -> "rtrim";
+  "cleanText" -> "ltrim";
+  "main" -> "getData";
+  "main" -> "cleanText";
+  "main" -> "getData";
+}

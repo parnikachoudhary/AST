@@ -1,0 +1,5 @@
+digraph CallGraph {
+  node [shape=box, fontname="Helvetica", style=filled, fillcolor="#f4f4f4"];
+  "f1" -> "f2";
+  "main" -> "f1";
+}
